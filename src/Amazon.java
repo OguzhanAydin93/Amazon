@@ -63,7 +63,7 @@ public class Amazon {
         MyFunc.Bekle(1);
 
         WebElement elektronik=driver.findElement(By.partialLinkText("Elektronik"));
-        System.out.println("elektronik.getText() = " + elektronik.getText());
+        System.out.println("elektronik = " + elektronik.getText());
         elektronik.click();
         MyFunc.Bekle(1);
 
@@ -72,7 +72,7 @@ public class Amazon {
         MyFunc.Bekle(1);
 
         WebElement moda=driver.findElement(By.linkText("Moda"));
-        System.out.println("moda.getText() = " + moda.getText());
+        System.out.println("moda = " + moda.getText());
         moda.click();
         MyFunc.Bekle(1);
 
@@ -81,7 +81,7 @@ public class Amazon {
         MyFunc.Bekle(1);
 
         WebElement kitap=driver.findElement(By.linkText("Kitap"));
-        System.out.println("kitap.getText() = " + kitap.getText());
+        System.out.println("kitap = " + kitap.getText());
         kitap.click();
         MyFunc.Bekle(1);
 
@@ -90,7 +90,7 @@ public class Amazon {
         MyFunc.Bekle(1);
 
         WebElement bilgisayar=driver.findElement(By.linkText("Bilgisayar"));
-        System.out.println("bilgisayar.getText() = " + bilgisayar.getText());
+        System.out.println("bilgisayar = " + bilgisayar.getText());
         bilgisayar.click();
         MyFunc.Bekle(1);
 
@@ -99,7 +99,7 @@ public class Amazon {
         MyFunc.Bekle(1);
 
         WebElement amazonayricaliklari=driver.findElement(By.linkText("Amazon Ayrıcalıkları"));
-        System.out.println("amazonayricaliklari.getText() = " + amazonayricaliklari.getText());
+        System.out.println("amazonayricaliklari= " + amazonayricaliklari.getText());
         amazonayricaliklari.click();
         MyFunc.Bekle(1);
 
@@ -108,7 +108,7 @@ public class Amazon {
         MyFunc.Bekle(1);
 
         WebElement satisyap=driver.findElement(By.linkText("Satış Yap"));
-        System.out.println("satisyap.getText() = " + satisyap.getText());
+        System.out.println("satisyap = " + satisyap.getText());
         satisyap.click();
         MyFunc.Bekle(1);
 
@@ -117,7 +117,7 @@ public class Amazon {
         MyFunc.Bekle(1);
 
         WebElement hediyekartlari=driver.findElement(By.linkText("Hediye Kartları"));
-        System.out.println("hediyekartlari.getText() = " + hediyekartlari.getText());
+        System.out.println("hediyekartlari = " + hediyekartlari.getText());
         hediyekartlari.click();
         MyFunc.Bekle(1);
 
