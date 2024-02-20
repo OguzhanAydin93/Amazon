@@ -10,6 +10,7 @@ public class Amazon {
         WebDriver driver = new ChromeDriver();
 
         driver.get("https://www.amazon.com.tr/");
+        driver.manage().window().maximize();
 
         WebElement cookie = driver.findElement(By.id("a-autoid-0"));
         cookie.click();
@@ -62,7 +63,7 @@ public class Amazon {
         logo5.click();
         MyFunc.Bekle(1);
 
-        WebElement elektronik=driver.findElement(By.partialLinkText("Elektronik"));
+        WebElement elektronik=driver.findElement(By.linkText("Elektronik"));
         System.out.println("elektronik = " + elektronik.getText());
         elektronik.click();
         MyFunc.Bekle(1);
