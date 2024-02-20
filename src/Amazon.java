@@ -124,8 +124,8 @@ public class Amazon {
         WebElement logo12=driver.findElement(By.id("nav-logo-sprites"));
         logo12.click();
         MyFunc.Bekle(4);
-        System.out.println("TEST BAŞARIYLA TAMAMALANDI");
         driver.quit();
+        System.out.println("TEST BAŞARIYLA TAMAMALANDI");
 
 
 
